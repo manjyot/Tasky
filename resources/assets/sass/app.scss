@@ -1,0 +1,70 @@
+
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+
+.tasky-homelogo{
+	margin-top: 100px;
+	font-size: 150px;
+	text-align: center;
+}
+
+.task{
+	padding: 20px;
+    background: #eee;
+    border-radius: 10px;
+    h3{
+    	margin-top: 5px;
+    }
+	.task-status{
+		margin-left: 10px;
+	    margin-top: 3px;
+	    font-size: 16px;
+	    position: absolute;
+	}
+	.task-user{
+		float: right;
+		font-size: 16px;
+		padding-right: 5px;
+	}
+}
+
+table.subtasks{
+	margin-top:40px;
+	td{
+		vertical-align: middle !important;
+		h3{
+			margin-top: 5px;
+			.subtask-status {
+				margin-left: 10px;
+			    margin-top: 3px;
+			    font-size: 16px;
+			    position: absolute;
+			}
+		}
+		form{
+			display: inline;
+		}
+	}
+}
+
+.no-subtasks{
+	margin-top: 40px;
+}
+
+.show-task{
+	h1{
+		display: inline-block;
+	}
+	.task-status{
+		position: absolute;
+	    margin-left: 10px;
+	    margin-top: 30px;
+	}
+}
